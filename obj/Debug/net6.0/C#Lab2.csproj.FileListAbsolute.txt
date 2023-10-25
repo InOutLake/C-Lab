@@ -1,0 +1,14 @@
+C:\Users\Maxim\source\repos\C#Lab2\bin\Debug\net6.0\C#Lab2.exe
+C:\Users\Maxim\source\repos\C#Lab2\bin\Debug\net6.0\C#Lab2.deps.json
+C:\Users\Maxim\source\repos\C#Lab2\bin\Debug\net6.0\C#Lab2.runtimeconfig.json
+C:\Users\Maxim\source\repos\C#Lab2\bin\Debug\net6.0\C#Lab2.dll
+C:\Users\Maxim\source\repos\C#Lab2\bin\Debug\net6.0\C#Lab2.pdb
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.AssemblyInfoInputs.cache
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.AssemblyInfo.cs
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.dll
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\refint\C#Lab2.dll
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.pdb
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\C#Lab2.genruntimeconfig.cache
+C:\Users\Maxim\source\repos\C#Lab2\obj\Debug\net6.0\ref\C#Lab2.dll
