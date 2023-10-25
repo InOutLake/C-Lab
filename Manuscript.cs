@@ -13,6 +13,9 @@ namespace C_Lab2
         string edition;
         bool nobeled;
 
+        public delegate void ManuscriptEventHandler();
+        public event ManuscriptEventHandler OnGiveNobel;
+
         public Manuscript(DateOnly publicDate, string author, string name, string genre, string edition) : 
             base(publicDate, author, name)
         {
@@ -24,6 +27,7 @@ namespace C_Lab2
         public void giveNobel()
         {
             nobeled = true;
+            OnGiveNobel?.Invoke();
         }
         override public void getReadByJhonny()
         {

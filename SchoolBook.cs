@@ -13,6 +13,9 @@ namespace C_Lab2
         string subject;
         int classNumber;
 
+        public delegate void SchoolBookHandler();
+        public event SchoolBookHandler OnBurn;
+
         public SchoolBook(DateOnly publicDate, string author, string name, string subject, int classNumber) :
             base(publicDate, author, name)
         {
@@ -41,6 +44,8 @@ namespace C_Lab2
             Name = "Illegible";
             subject = "Illegible";
             classNumber = 666;
+
+            OnBurn?.Invoke();
         }
 
         public object Clone()

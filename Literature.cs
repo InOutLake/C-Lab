@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_Lab2
 {
-    internal class Literature
+    internal class Literature: IComparable
     {
         DateOnly publicDate;
         string author;
@@ -30,6 +30,16 @@ namespace C_Lab2
         {
             Console.WriteLine($"Jhonny has read something {(IsReadByJhonny ? "again" : "")}...");
             IsReadByJhonny = true;
+        }
+
+        override public string ToString()
+        {
+            return $"{Name}, {Author}, {PublicDate}";
+        }
+
+        public int CompareTo(object? obj)
+        {
+            return this.ToString().CompareTo(obj.ToString());
         }
     }
 }

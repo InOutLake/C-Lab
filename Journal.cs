@@ -13,6 +13,9 @@ namespace C_Lab2
         string series;
         int numberInSeries;
 
+        public delegate void JournalEventHandler();
+        public event JournalEventHandler OnBurn;
+
         public Journal(DateOnly publicDate, string author, string name, string series, int numberInSeries) :
             base(publicDate, author, name)
         {
@@ -44,13 +47,15 @@ namespace C_Lab2
             return new Journal(base.PublicDate, base.Author, base.Name, series, numberInSeries, true);
         }
 
-        void IBurnable.burnToAshes()
+        public void burnToAshes()
         {
             Console.WriteLine($"{numberInSeries} part of {series} burned to ashes! It is not readable anymore!");
             Author = "Illegible";
             Name = "Illegible";
             series = "Illegible";
             numberInSeries = 666;
+
+            OnBurn?.Invoke();
         }
     }
 }
